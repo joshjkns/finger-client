@@ -1,0 +1,10 @@
+{
+  "C_Cpp.errorSquiggles": "disabled",
+  "files.associations": {
+    "*.pl": "prolog",
+    "inet.h": "c",
+    "ip.h": "c",
+    "string.h": "c",
+    "stdio.h": "c"
+  }
+}
