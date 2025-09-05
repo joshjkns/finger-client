@@ -1,6 +1,7 @@
-i mean it works but there is like no more finger servers that use basic finger, they all use the finger cli thing which i think is just http on port 80 so my client wouldn't work for that i don't think?
+# finger-client
 
-edit:
-can just use my file as a http client instead and use port 80 for plan.cats ip 45.20.163.42 to get a response! accidentally made a http client
+# files
+client.c and server.c are just websocket examples that could work with any sort of communication, such as finger (although they are on port 8080 or 8000 rather than 79)
 
-rip finger on port 79 
+client-finger.c actually works! port 79 and using plan.cat's ip to get my user /~bet.
+client-http.c is just a http client that also gets my user from plan.cat, but its not finger, thought this was all you could do anymore but I was just being stupid with the message in client-finger.c
