@@ -1,7 +1,7 @@
 # finger-client
 
 # files
-**client.c and server.c **are just websocket examples that could work with any sort of communication, such as finger (although they are on port 8080 or 8000 rather than 79)
+**client.c and server.c** are just websocket examples that could work with any sort of communication, such as finger (although they are on port 8080 or 8000 rather than 79)
 
 **client-finger.c** actually works! port 79 and using plan.cat's ip to get my user /~bet.
 
